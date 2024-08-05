@@ -390,7 +390,7 @@ nav.sticky {
 }
 
 .btn-callout {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700;
   width: 295px;
   height: 65px;
@@ -399,11 +399,12 @@ nav.sticky {
   border: 1px solid white;
   filter: drop-shadow(5px 5px 10px transparent);
   background-color: white;
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.3s;
   cursor: pointer;
 }
 
 .btn-callout:hover {
+  font-size: 24px;
   background-color: var(--accent);
   color: white;
   border: 1px solid var(--accent);
