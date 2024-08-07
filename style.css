@@ -142,11 +142,13 @@ nav.sticky {
 
 .hero-section img {
   margin-top: 20px;
-  width: 40%;
-  /* border-left: 1px solid white;
-  border-right: 1px solid white; */
+  width: auto;
+  max-width: 40%;
+  height: 40%;
+  /* Sicherstellt, dass das Bild seine Proportionen beibehält */
   border-bottom: 1px solid white;
 }
+
 
 /* Hero Headline */
 .hero-headline {
