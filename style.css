@@ -356,6 +356,10 @@ nav.sticky {
   font-size: 20px;
 }
 
+.testimony-text b {
+  color: #5753ff;
+}
+
 .testimony-people {
   font-size: 16px;
 }
