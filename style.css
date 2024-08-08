@@ -614,9 +614,16 @@ footer a {
 
   /* Hero Section */
   .hero-section img {
-    max-width: 500px;
+    /* max-width: 500px;
     height: auto;
-    margin-left: -180px;
+ */
+
+    margin-top: 20px;
+    width: auto;
+    max-width: 500px;
+    height: 500px;
+    /* Sicherstellt, dass das Bild seine Proportionen beibehält */
+    border-bottom: 1px solid white;
   }
 
   .hero-headline {
