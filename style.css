@@ -582,8 +582,15 @@ footer a {
   opacity: 0.5;
 }
 
-.work-page p {
+/* .work-page p {
+  list-style: none;
   font-size: 32px;
+  width: 972px;
+} */
+
+.work-page ul {
+  list-style: none;
+  font-size: 24px;
   width: 972px;
 }
 
@@ -728,8 +735,8 @@ footer a {
     font-size: 20px;
   }
 
-  .work-page p {
-    font-size: 20px;
+  .work-page ul {
+    font-size: 16px;
     width: 600px;
   }
 
@@ -1018,9 +1025,9 @@ footer a {
     flex-direction: column;
   }
 
-  .work-page p {
+  .work-page ul {
     width: 100%;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .work-page-images {
