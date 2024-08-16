@@ -300,6 +300,16 @@ nav.sticky {
   margin-top: 24px;
 }
 
+.work-item a img {
+  transform: scale(1);
+  transition: all ease-in 0.3s;
+}
+
+.work-item a img:hover {
+  transform: scale(0.95);
+}
+
+
 .work-title {
   display: flex;
   gap: 5px;
@@ -688,6 +698,7 @@ footer a {
   .work-item {
     align-items: center;
   }
+
 
   /* Testimonials Section */
   .testimonials {
